@@ -1,0 +1,1 @@
+gcc -Wall -I./exploits -I./scanners -I./scrapers main.c exploits/*.c scanners/*.c scrapers/*.c exploits/*.h scanners/*.h scrapers/*.h -o starlite -pthread
